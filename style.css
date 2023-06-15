@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(252, 253, 253);
+    font-family: 'Paprika', cursive;
+}
+
+.headerStyle {
+    background-color: rgb(95, 172, 223);
+    display: flex;
+    align-items: center;
+}
+
+.AvatarLogo {
+    background-color: white;
+    margin: 22px;
+    padding: 20px;
+    border-radius: 20px;
+ }
+
+.histoire {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    }
+
+
+.image1 {
+    background-image: url(/AvatarImage/AvatarPaysage1.jpg);
+    background-position:bottom;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    height: 80vh ;   
+}
+
+.titre {
+    color: black;
+    position:absolute; bottom: 30px; right: 20px;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.70;
+}
+
+.articlestyle {
+    align-items: center;
+    background-color: rgb(246, 248, 248);
+    justify-content: center; 
+    margin: 20px;    
+}
+
+.bloquerelatif {
+    position: relative;
+}
+
+.imageFull {
+    width: 100%;
+    position: relative; 
+    border-radius: 10px 10px 0px 0px;  
+  
+}
+
+.paragraphe1 {
+    background-color: #8595b9;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;bottom: 15px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.titre2 { 
+    background-color: white;
+    position: absolute; right: 60px; bottom: -20px;
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 10;
+    opacity: 0.70;
+}
+
+.imagPandora {
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+
+
+.footer {
+    background-color:#8595b9;
+    padding: 15px;   
+}
+
+.ul { 
+    text-align: center;
+    list-style: none;
+}
+
+.contact {
+    color: rgb(59, 52, 52);    
+}
+
+
+  
