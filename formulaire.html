@@ -23,30 +23,65 @@
         </nav>
 
     </header>
-    <main>
-        <div class="image1">
-            <h1 class="titre">formulaire de contact</h1>
-        </div>
-        <form  method="get" action=""class="colonne">
-            <label for="Prénom">Prénom</label>
-            <textarea name="prémon" id="" cols="100" rows="0" class="information">votre prémon</textarea>
-            <label for="nom">Nom</label>
-            <textarea name="nom" id="nom" cols="100" rows="0">NOM</textarea>
-            </form>
-            <aside>
+    <div class="image1">
+        <h1 class="titre">formulaire de contact</h1>
+    </div>
+    <form method="get" action="">
+        <main class="main">
+
+
+            <div class="colonne1">
+                <label for="Prénom">Prénom</label>
+                <textarea name="prémon" id="" cols="20" rows="0" class="information">votre prémon</textarea>
+                <label for="nom">Nom</label>
+                <textarea name="nom" id="nom" cols="20" rows="0">Votre nom de famille</textarea>
                 <label for="email">Email :</label>
                 <input type="email" id="email" name="email">
+                <label for="vous êtes">Vous êtes</label>
+                <select>
+                    <option value="option1">Particulier</option>
+                    <option value="option2">Entreprise</option>
+                </select>
+                <label for="nom">Vous venez :</label>
 
-            </aside>
+                <label for="choix1">à pied</label>
+                <input type="checkbox" id="choix1" name="choix1">
+
+                <label for="choix2">une voiture</label>
+                <input type="checkbox" id="choix2" name="choix2">
+
+                <label for="choix3">un bus</label>
+                <input type="checkbox" id="choix3" name="choix3">
+
+
+            </div>
+
+            <div class="colonne2">
+                <label for="date">Date de l'événement :</label>
+                <input type="date" id="date" name="date" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <label for="nom">Vous préférez :</label>
+
+                <label for="choix1">Popcorn</label>
+                <input type="checkbox" id="choix1" name="choix1">
+                <label for="choix2">Boissons</label>
+                <input type="checkbox" id="choix2" name="choix2">
+                <label for="choix3">Les deux</label>
+                <input type="checkbox" id="choix3" name="choix3">
+
+            </div>
             <input type="submit" value="Envoyer" class="envoie">
-    </main>
 
+
+        </main>
+    </form>
 
     <footer class="footer">
         <nav>
-            <ul >
-                <li class="ul"> @ Une page fantaisiste / Avatar 
-                <a href="contact.html" class="contact" target="_self">Contact</a>
+            <ul>
+                <li class="ul"> @ Une page fantaisiste / Avatar
+                    <a href="contact.html" class="contact" target="_self">Contact</a>
                 </li>
 
             </ul>
