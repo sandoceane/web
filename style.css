@@ -95,7 +95,6 @@ body {
 
 .imagPandora {
     width: 100%;
-
     border-radius: 10px;
 }
 
@@ -111,20 +110,20 @@ body {
 }
 
 .main {
-  display: flex;
+    display: flex;
 }
 
 .colonne1 {
-   flex-basis: 50%;
+    flex-basis: 50%;
     color: #3e6675;
-    padding:20px;
+    padding: 20px;
 
 }
 
 .colonne2 {
     flex-basis: 50%;
     color: #3e6675;
-    padding:20px;
+    padding: 20px;
 
 }
 
@@ -133,7 +132,7 @@ select {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    
+
 }
 
 option {
@@ -145,29 +144,33 @@ input[type="date"] {
     padding: 8px;
     border-radius: 4px;
     box-sizing: border-box;
-    
+
 }
 
 input[type="text"] {
     width: 100%;
 
-    
+
 }
+
 input[type="email"] {
     width: 100%;
 }
 
 input[type="submit"] {
-    width: 100%;
+    width: 98%;
     padding: 10px;
+    margin: 20px;
     background-color: #215f75;
-    color:white
+    color: white
 }
+
 label {
     display: block;
     padding: 10px;
-    
+
 }
+
 .footer {
     background-color: #8595b9;
     padding: 5px;
@@ -175,6 +178,6 @@ label {
     border-radius: 10px;
 }
 
-textarea{
-     width: 100%;
+textarea {
+    width: 100%;
 }
