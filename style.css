@@ -1,33 +1,77 @@
 .stylebody {
+    
     font-family: 'Roboto', sans-serif;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 40px;
 }
 
 .styleheader {
+    display: flex;
+    align-items: center;
     border-radius: 10%;
-    background-color:#6d2b1b;
+    background-color:#866b65;
     padding: 20px;
-    margin: 20px;
 
 }
 .logo {
     margin: 20px;
     border-radius: 10% 50% 10% 50%;
     width: 10%;
-    display:flex
+    display:flex;
     
 }
 .contact {
     background-color: white;
-    margin: 20px;
+    margin-right:20px;
     padding: 30px;
     border-radius: 10% 50% 10% 50%;
     font-size: 20px;
     text-decoration: none;
     color: black;
     }
+.image1 {
+    background-image: url(/web/différents_chichi.jpg );
+    position: relative;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+
+    height: 60vh ;   
+
+
+}    
 
 .p {
     font-size: 20px;
+    align-items: center;
+
 }
+.p1 {
+    font-size: 30px;
+
+}
+.ul {
+    font-size: 20px;
+    align-items: center;
+    list-style-type: none;
+
+    
+}
+
+footer {
+    background-color:#866b65;
+    text-align: center;
+    border-radius: 10%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
