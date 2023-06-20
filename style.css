@@ -1,0 +1,33 @@
+.stylebody {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.styleheader {
+    border-radius: 10%;
+    background-color:#6d2b1b;
+    padding: 20px;
+    margin: 20px;
+
+}
+.logo {
+    margin: 20px;
+    border-radius: 10% 50% 10% 50%;
+    width: 10%;
+    display:flex
+    
+}
+.contact {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10% 50% 10% 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    }
+
+.p {
+    font-size: 20px;
+}
